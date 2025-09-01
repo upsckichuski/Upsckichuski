@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSC Ki Chuski</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fafafa; color: #333; line-height: 1.6; }
+    header { background: #2c3e50; color: #fff; padding: 1rem; text-align: center; }
+    header h1 { font-size: 2rem; }
+    nav { display: flex; justify-content: center; background: #34495e; }
+    nav a { color: #fff; padding: 1rem; text-decoration: none; font-weight: bold; }
+    nav a:hover { background: #1abc9c; }
+    .container { width: 90%; max-width: 1100px; margin: auto; padding: 2rem 0; }
+    section { margin-bottom: 2rem; }
+    h2 { margin-bottom: 1rem; text-align: center; color: #2c3e50; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .card { background: #fff; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; text-align: center; }
+    .card img { width: 100%; border-radius: 8px; }
+    footer { text-align: center; padding: 1rem; background: #2c3e50; color: #fff; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UPSC Ki Chuski</h1>
+    <p>स्वाद भी, सेहत भी – हेल्दी जग्गरी-बेस्ड प्रीमिक्स ड्रिंक्स!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        UPSC Ki Chuski, Prayagraj से चलाया जाने वाला एक प्रीमियम हेल्दी ड्रिंक्स ब्रांड है।
+        हमारे प्रोडक्ट्स में स्वादिष्ट और सेहतमंद जग्गरी-बेस्ड चाय, कॉफी और कोल्ड बेवरेज शामिल हैं। 
+        B2B के साथ-साथ अब हम B2C ग्राहकों तक भी अपने प्रोडक्ट्स ला रहे हैं!
+      </p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Classic Jaggery Tea">
+          <h3>Classic Jaggery Tea</h3>
+          <p>देशी गुड़ से बनी पारंपरिक चाय का स्वाद।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Masala Tea Premix">
+          <h3>Masala Tea Premix</h3>
+          <p>गर्म मसालों का तड़का – सेहत और स्वाद का मेल।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Cardamom Tea">
+          <h3>Cardamom Tea</h3>
+          <p>इलायची के खास स्वाद से भरपूर।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Ginger Tea">
+          <h3>Ginger Tea</h3>
+          <p>अदरक की तासीर से सेहत का खजाना।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Tulsi Tea">
+          <h3>Tulsi Tea</h3>
+          <p>तुलसी की प्राकृतिक खुशबू से भरपूर।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Coffee Premix">
+          <h3>Coffee Premix</h3>
+          <p>गाढ़ी और सुगंधित कॉफी का मज़ा।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Orange Premix">
+          <h3>Orange Premix</h3>
+          <p>खट्टा-मीठा ऑरेंज ड्रिंक का आनंद।</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Lemon Cold Beverage">
+          <h3>Lemon Cold Beverage</h3>
+          <p>गर्मियों के लिए ठंडा और ताज़गीभरा पेय।</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@upsckichuski.com</p>
+      <p>Phone: +91-9876543210</p>
+      <p>Prayagraj, Uttar Pradesh</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 UPSC Ki Chuski | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
